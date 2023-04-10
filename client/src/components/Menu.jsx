@@ -18,7 +18,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import LamaTube from "../img/logo.png";
+import YouTube from "../img/logo.png";
 import { logout } from "../redux/userSlice";
 const Container = styled.div`
   flex: 1;
@@ -95,8 +95,8 @@ const Menu = ({ darkMode, setDarkMode }) => {
       <Wrapper>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
-            <Img src={LamaTube} />
-            LamaTube
+            <Img src={YouTube} />
+            YouTube
           </Logo>
         </Link>
         <Item>
@@ -149,7 +149,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
             <Hr />
           </>
         )}
-        <Title>BEST OF LAMATUBE</Title>
+        <Title>BEST OF YOUTUBE</Title>
         <Item>
           <LibraryMusicOutlinedIcon />
           Music
